@@ -6,6 +6,17 @@ using System.Windows.Forms;
 
 namespace herencia
 {
+    class operacion
+    {
+        //declaracion de variables que usa la clase
+        //tipo de acceso        tipo de dato          nombre de dato
+        protected               int                     valor1;
+        protected               int                      valor2;
+        protected               int                     resultado;
+
+     
+    }
+    //est6o es un comentario nuevo 26 de abril
     static class Program
     {
         /// <summary>
