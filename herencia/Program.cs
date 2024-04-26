@@ -16,7 +16,8 @@ namespace herencia
 
      
     }
-    //est6o es un comentario nuevo 26 de abril
+    //esto es un comentario nuevo 26 de abril
+    //esto es un segunod comentario nuevo 26 de abril
     static class Program
     {
         /// <summary>
