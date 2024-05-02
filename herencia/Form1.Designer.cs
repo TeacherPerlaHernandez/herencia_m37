@@ -69,10 +69,9 @@ namespace herencia
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(12, 81);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(130, 25);
+            this.label3.Size = new System.Drawing.Size(124, 25);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Valor 2 / # B";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label3.Text = "Valor 2/ # B";
             // 
             // textBox1
             // 
@@ -107,6 +106,7 @@ namespace herencia
             this.suma.TabIndex = 6;
             this.suma.Text = "Sumar";
             this.suma.UseVisualStyleBackColor = true;
+            this.suma.Click += new System.EventHandler(this.suma_Click);
             // 
             // resta
             // 
@@ -117,6 +117,7 @@ namespace herencia
             this.resta.TabIndex = 7;
             this.resta.Text = "Restar";
             this.resta.UseVisualStyleBackColor = true;
+            this.resta.Click += new System.EventHandler(this.resta_Click);
             // 
             // Mulriplicar
             // 
@@ -127,6 +128,7 @@ namespace herencia
             this.Mulriplicar.TabIndex = 8;
             this.Mulriplicar.Text = "Multiplicar.";
             this.Mulriplicar.UseVisualStyleBackColor = true;
+            this.Mulriplicar.Click += new System.EventHandler(this.Mulriplicar_Click);
             // 
             // dividir
             // 
@@ -147,6 +149,7 @@ namespace herencia
             this.Limpa.TabIndex = 10;
             this.Limpa.Text = "Limpar";
             this.Limpa.UseVisualStyleBackColor = true;
+            this.Limpa.Click += new System.EventHandler(this.Limpa_Click);
             // 
             // salir
             // 
@@ -157,6 +160,7 @@ namespace herencia
             this.salir.TabIndex = 11;
             this.salir.Text = "Salir";
             this.salir.UseVisualStyleBackColor = true;
+            this.salir.Click += new System.EventHandler(this.salir_Click);
             // 
             // Form1
             // 
